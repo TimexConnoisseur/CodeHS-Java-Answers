@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class RollerCoaster
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Tall: ");
+        int tall = input.nextInt();
+
+        System.out.println("Age: ");
+        int age = input.nextInt();
+
+        if (tall >= 42 && age >= 9) {
+            System.out.println("Welcome aboard!");
+        }
+
+        System.out.println("Sorry, you are not eligible to ride");
+    }
+}
